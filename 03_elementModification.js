@@ -1,1 +1,1 @@
-document.getElementsByTagName("button")[0].textContent = "Hello World";
+document.getElementsByTagName("button")[0].textContent = "hello world";
