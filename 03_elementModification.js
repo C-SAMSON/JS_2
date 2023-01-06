@@ -1,0 +1,1 @@
+let button = document.getElementsByTagName("button")[0].textContent = "Hello World";
