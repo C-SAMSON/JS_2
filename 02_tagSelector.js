@@ -1,7 +1,6 @@
 function getFirstButton() {
-    let test = document.getElementsByTagName("button")[O];
-    return test.innerHTML;
+    return document.getElementsByTagName("button");
 }
 
-// console.log(getFirstButton);
+// console.log(getFirstButton());
 module.exports = getFirstButton;

@@ -1,5 +1,6 @@
 function getInputContent() {
-    return input = document.getElementById(input).value;
+    return document.getElementById("input").value;
 }
 
-module.exports = getInputContent;
+console.log(getInputContent());
+// module.exports = getInputContent;
