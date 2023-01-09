@@ -1,5 +1,5 @@
 function getFirstButton() {
-    return document.getElementsByTagName("button");
+    return document.getElementsByTagName("button")[0];
 }
 
 // console.log(getFirstButton());
