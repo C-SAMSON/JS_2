@@ -1,5 +1,5 @@
 function childAccess() {
-    return document.getElementById("menu").firstElementChild;
+    return document.getElementById("menu").firstElementChild.textContent;
 }
 
 // console.log(childAccess());
