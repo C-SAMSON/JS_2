@@ -1,10 +1,10 @@
 const sleepThrow = (milliseconds, boolean) => {
     return new Promise((resolve, reject) => setTimeout(() => {    
-    if (boolean === false) {
-        reject("error");
+    if (boolean === true) {
+        resolve("success");
     } else {
-        resolve("success")
+        reject("error");
     }}, milliseconds))
 }
 
-module.exports = sleepThrow;
+try{module.exports = sleepThrow;}catch(e){}

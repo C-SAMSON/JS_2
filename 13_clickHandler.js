@@ -5,4 +5,4 @@ btn.addEventListener("click", () => {
     p.textContent = "clicked";
     let content = document.querySelector(".content");
     content.insertBefore(p, content.firstChild);    
-})
+});
